@@ -15,6 +15,10 @@ public class Fabula extends Escrito {
 		return getPaginas()*parametro*1;
 	}
 	
+	public String interpretacion() {
+		return this.getInterpretacion();
+	}
+	
 	public String toString() {
 		return this.getOrigen() + "\n" + 
 				this.getTitulo() + "\n" + 
