@@ -17,6 +17,18 @@ public class Tesis extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
+	public String toString() {
+		return this.getOrigen() + "\n" + 
+				this.getTitulo() + "\n" + 
+				this.getAutor() + "\n" + 
+				this.getPaginas() + "\n" + 
+				this.getIdea() + "\n" + 
+				this.getArgumentos() + "\n" +
+				this.getConclusion()+"\n" +
+				this.getReferencias();
+	}
+	
+	
 	public int palabrasTotales(int parametro) {
 		return getPaginas()*parametro*5;
 	}

@@ -18,6 +18,16 @@ public class Libro extends Escrito{
 	public int palabrasTotales(int parametro) {
 		return getPaginas()*parametro*2;
 	}
+	
+	public String toString() {
+		return this.getOrigen() + "\n"+
+				this.getTitulo()+ "\n"+
+				this.getAutor() +"\n" +
+				this.getPaginas() + "\n"+
+				this.getCo_autor() + "\n"+
+				this.getEditorial() + "\n"+
+				this.getEdicion();	
+	}
 
 	public String getCo_autor() {
 		return co_autor;
