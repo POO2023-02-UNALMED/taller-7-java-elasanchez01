@@ -10,6 +10,14 @@ public class Fabula extends Escrito {
 		this.setEnsenanza(ensenanza);
 		this.setInterpretacion(interpretacion);
 	}
+	
+	public String toString() {
+		return this.getOrigen() + "\n" + 
+				this.getTitulo() + "\n" + 
+				this.getAutor() + "\n" + 
+				this.getPaginas() + "\n" + 
+				this.getEnsenanza();
+	}
 
 	public String getEnsenanza() {
 		return ensenanza;

@@ -17,6 +17,10 @@ public class Tesis extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
+	public int palabrasTotales(int parametro) {
+		return getPaginas()*parametro*5;
+	}
+	
 	public String getIdea() {
 		return idea;
 	}

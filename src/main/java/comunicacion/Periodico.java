@@ -11,6 +11,10 @@ public class Periodico extends Escrito{
 		this.primicia = primicia;
 		this.interpretacion = interpretacion;
 	}
+	
+	public int palabrasTotales(int parametro) {
+		return getPaginas()*parametro*10;
+	}
 
 	public String getFecha() {
 		return fecha;

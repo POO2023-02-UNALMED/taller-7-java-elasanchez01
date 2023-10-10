@@ -14,6 +14,10 @@ public class Libro extends Escrito{
 		this.edicion = edicion;
 		this.interpretacion = interpretacion;
 	}
+	
+	public int palabrasTotales(int parametro) {
+		return getPaginas()*parametro*2;
+	}
 
 	public String getCo_autor() {
 		return co_autor;

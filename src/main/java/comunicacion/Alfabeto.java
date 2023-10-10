@@ -18,7 +18,9 @@ public class Alfabeto extends Pictograma{
 	
 	//public String interpretacion() {}
 
-	//public String toString() {}
+	public String toString() {
+		return "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z";
+	}
 	
 	public String getInterpretacion() {
 		return interpretacion;
@@ -35,13 +37,6 @@ public class Alfabeto extends Pictograma{
 	public static void setLetras(String[] letras) {
 		Alfabeto.letras = letras;
 	}
-	
-	public String getOrigen() {
-		return this.origen;
-	}
 
-	public void setOrigen(String origen) {
-		this.origen = origen;
-	}
 	
 }
